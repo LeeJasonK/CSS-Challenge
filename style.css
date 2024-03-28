@@ -1,0 +1,61 @@
+
+* {
+    background-color:antiquewhite;
+}
+
+body {
+    background-color: white;
+}
+
+
+.content {
+    max-width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 35px;
+    box-align: center;
+    height: 1000px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+img {
+    border-radius: 20px; 
+}
+
+.prep {
+    background-color: lightpink;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#instruction {
+    padding: 15px;
+}
+
+h1 { font-size: 50px; } h2 { font-size: 30px; color: brown;} h3 { font-size: 20px; color: brown;}
+
+p {
+    font-family: young-serif;
+}
+ul.a {
+    list-style: square
+
+}
+
+ul.b {
+    list-style: numbers;
+}
+
+li {
+    padding: 5px;
+}
+
+td {
+    text-align:left;
+    padding-left: 200px;
+    color: brown;
+    font-style: bold;
+}
+
