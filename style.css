@@ -4,15 +4,17 @@
 }
 
 body {
-    text-align: left;
+    font-size: 12px;
+    text-align: center;
 }
 .flex-container {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 500px;
+    width: 530px;
     height: auto;
     border-radius: 25px;
+
   }
 
   .flex-container > div {
@@ -20,16 +22,14 @@ body {
     margin-bottom: 50px;
     text-align: left;
     line-height: auto;
-    direction: column;
+
   }
 
 img {
     border-radius: 20px;
 }
 
-.div {
-    width: auto;
-}
+
 
 .center {
     margin-top: 20px;
@@ -54,8 +54,8 @@ img {
     background-color: lightpink;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10px;
     border-radius: 10px;
+    box-align: center;
     width: auto;
 }
 
@@ -76,36 +76,85 @@ img {
 
 .Nutrition {
     background-color: white;
-    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
     margin-left: 10px;
     margin-right: 10px;
     width: auto;
+    text-align: center;
+    border-style: none;
+    border-color: white;
 }
 
-h1 { font-size: 35px
+
+h1 { font-size: 35px;
     background-color: white; 
-} h2 { font-size: 30px; color: brown;} h3 { font-size: 20px; color: rgb(235, 7, 7);}
+} 
+
+h2 { font-size: 30px; color: brown;
+background-color: white;} 
+
+strong {
+    background-color: white;
+}
+
+h3 { font-size: 20px; color: rgb(235, 7, 7);
+background-color: lightpink;}
 
 p {
-    font-family: young-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: left;
 }
-ul.a {
-    list-style: square
 
+
+ul.a {
+    list-style-type: square;
+    text-align: left;
+    background-color: lightpink;
 }
+
 
 ul.b {
-    list-style: numbers;
+    list-style-type: square;
+    background-color: white;
+    text-align: left;
+}
+
+ul.c {
+    list-style-type: numbers;
+    background-color: white;
+    text-align: left;
 }
 
 li {
     padding: 5px;
+    background-color: white;
+    text-align: left;
+}
+
+table {
+    width: 430px;
+    border-style: none;
+}
+
+tr {
+    background-color: white;
+    border-color: white;
+    margin-left: 60px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+    border-color: white;
+    padding-left: 50px;
 }
 
 td {
-    text-align:left;
-    margin-left: 200px;
+    width: 150px;
     color: brown;
-    font-style: bold;
+    font-weight: bold;
+    background-color: white;
 }
 
