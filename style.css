@@ -1,21 +1,23 @@
 
 * {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif';
 }
 
 @font-face {
     font-family: 'Young Serif';
-    src: url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-display: swap;
     font-weight: 400;
   }
   
-  @font-face {
-    font-family: 'Outfit';
-    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@font-face {
+    font-family: 'outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
     font-weight: normal;
   }
 
 body {
+    font-family: "outfit";
     background-color: hsl(30, 54%, 90%) ;
     display: flex;
     justify-content: center;
@@ -25,7 +27,6 @@ body {
 }
 
 .flex-container {
-    font-family: 'Young Serif', serif;
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
@@ -63,6 +64,7 @@ img {
 }
 
 .prep {
+    margin-top: 20px;
     padding: .5rem;
     background-color:hwb(330 96% 0%);
     border-radius: 20px;
@@ -80,6 +82,7 @@ img {
     margin-top: 1em; 
     margin: 30;
     list-style-type:square;
+    font-family: 'Outfit';
     
 }
 
@@ -88,16 +91,19 @@ img {
 }
 .Ingredients {
     margin-left: none;
+    margin-top: 30px;
     border-bottom: 1px solid rgb(189, 189, 189); 
-    line-height: 1.2rem; 
+    line-height: .89rem; 
 }
 
 .Ingredients h1 {
+    font-family: 'Young Serif';
     color:hsl(14, 45%, 36%);
     
  }
  .Ingredients ul li {
      margin-top: 1em; 
+     font-family: 'Outfit';
  }
 .Ingredients ul li::marker {
         color: hsl(332, 51%, 32%) ;
@@ -109,10 +115,12 @@ img {
     padding-bottom: 1rem;
 }
 .Instructions h1 {
+    font-family: 'Young Serif';
     color:hsl(14, 45%, 36%);
  }
  .Instructions ol li {
      margin-top: 1rem; 
+     font-family: 'Outfit';
  }
 
  .Instructions ol li::marker {
@@ -125,6 +133,7 @@ img {
     margin-bottom: 2em;
  }
  .Nutrition h1 {
+    font-family: 'Young Serif';
     color:hsl(14, 45%, 36%);
  }
  .Nutrition p {
@@ -135,6 +144,7 @@ img {
     border-collapse: collapse;
  }
  .Nutrition td {
+    font-family: 'Outfit';
     border-bottom: 1px solid rgb(189, 189, 189); 
     padding: 8px; 
 }
@@ -144,9 +154,11 @@ img {
     color: hsl(14, 45%, 36%);
 }
 
-h1, h2, h3 {
-    font-family: 'Outfit', sans-serif;
+p {
+    font-family: 'Outfit';
 }
+
+
 strong {
     font-family:'Outfit', sans-serif;
     color:hsl(30, 10%, 34%) ;
